@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Days of Perfect Nails – Rose Water Home Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rose-gold': '#e8c39e',
+                        'soft-pink': '#f8eae9',
+                        'dark-rose': '#d4a6a4',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #e8c39e 0%, #d4a6a4 100%);
+            box-shadow: 0 4px 15px rgba(212, 166, 164, 0.3);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(212, 166, 164, 0.4);
+        }
+        .guide-mockup {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        .gallery-item {
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        .bonus-badge {
+            display: inline-block;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: linear-gradient(135deg, #e8c39e 0%, #d4a6a4 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            transform: rotate(5deg);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-700">
+    <!-- Header Section -->
+    <header class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-soft-pink rounded-b-full -translate-y-1/2 scale-150 md:scale-100"></div>
+        <div class="container mx-auto px-4 py-16 md:py-24 relative z-10">
+            <div class="flex flex-col lg:flex-row gap-10 items-center">
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-dark-rose mb-4 leading-tight">
+                        Transform Your Nails in Just 7 Days – From Home
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
+                        Create the most desired Pinterest nail looks without a salon.
+                    </p>
+                    <a href="#cta" class="btn-primary text-white font-bold py-4 px-8 rounded-full text-lg inline-block">
+                        Get Instant Access for £8.90
+                    </a>
+                </div>
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="guide-mockup max-w-md">
+                        <img src="https://images.unsplash.com/photo-1622288432450-277d0b4fe4e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80" 
+                             alt="7 Days of Perfect Nails Guide Mockup" 
+                             class="w-full rounded-xl shadow-xl border-8 border-white transform rotate-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Highlights Section -->
+    <section class="py-16 bg-soft-pink">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-rose mb-4">What's Inside The Guide</h2>
+                <p class="text-gray-600">Everything you need to recreate viral nail styles from the comfort of home</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-opacity-20 border-dark-rose">
+                    <div class="flex mb-4">
+                        <div class="bg-rose-gold bg-opacity-20 p-3 rounded-full mr-4">
+                            <i class="fas fa-paint-brush text-dark-rose text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark-rose mt-2">7 Unique Nail Styles</h3>
+                    </div>
+                    <p class="text-gray-600">Step-by-step tutorials to achieve stunning Pinterest-worthy nails every day of the week.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-opacity-20 border-dark-rose">
+                    <div class="flex mb-4">
+                        <div class="bg-rose-gold bg-opacity-20 p-3 rounded-full mr-4">
+                            <i class="fas fa-home text-dark-rose text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark-rose mt-2">At-Home Materials</h3>
+                    </div>
+                    <p class="text-gray-600">No professional tools needed - use what you already have at home.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-opacity-20 border-dark-rose">
+                    <div class="flex mb-4">
+                        <div class="bg-rose-gold bg-opacity-20 p-3 rounded-full mr-4">
+                            <i class="fas fa-thumbs-up text-dark-rose text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark-rose mt-2">Pinterest-Perfect Results</h3>
+                    </div>
+                    <p class="text-gray-600">Achieve that aesthetic, envy-inducing look without expensive salon visits.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-opacity-20 border-dark-rose">
+                    <div class="flex mb-4">
+                        <div class="bg-rose-gold bg-opacity-20 p-3 rounded-full mr-4">
+                            <i class="fas fa-star text-dark-rose text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-dark-rose mt-2">No Experience Needed</h3>
+                    </div>
+                    <p class="text-gray-600">Perfect for beginners - no professional skills required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark-rose mb-2">A Sneak Peek of What's Inside...</h2>
+                <p class="text-gray-600">Discover the beautiful layouts and easy-to-follow tutorials</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center gap-6 max-w-5xl mx-auto">
+                <div class="gallery-item flex-1">
+                    <div class="overflow-hidden rounded-xl shadow-lg border-4 border-white">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc6eeaae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000&q=80" 
+                             alt="Guide preview - nail design" 
+                             class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="gallery-item flex-1 mt-8 md:mt-16">
+                    <div class="overflow-hidden rounded-xl shadow-lg border-4 border-white">
+                        <img src="https://images.unsplash.com/photo-1604654894583-aef57e1b1d58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000&q=80" 
+                             alt="Guide preview - nail tutorial" 
+                             class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="gallery-item flex-1 mt-0 md:mt-8">
+                    <div class="overflow-hidden rounded-xl shadow-lg border-4 border-white">
+                        <img src="https://images.unsplash.com/photo-1604654894613-3d0a8f5e0f8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000&q=80" 
+                             alt="Guide preview - nail inspiration" 
+                             class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Section -->
+    <section class="py-16 bg-soft-pink relative">
+        <div class="absolute top-0 left-0 right-0 h-16 w-full bg-gradient-to-b from-white to-soft-pink"></div>
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="relative">
+                    <div class="bonus-badge">LIMITED BONUS</div>
+                </div>
+                <div class="p-8 md:p-12">
+                    <h2 class="text-3xl font-bold text-dark-rose mb-6 text-center">Special Free Bonus Gift</h2>
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="md:w-1/3 flex justify-center">
+                            <div class="w-48 h-48 bg-dark-rose bg-opacity-10 rounded-full flex items-center justify-center">
+                                <i class="fas fa-gift text-dark-rose text-6xl"></i>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <p class="text-lg mb-4">When you buy today, you also unlock our special bonus:</p>
+                            <div class="bg-rose-gold bg-opacity-20 p-6 rounded-xl mb-6">
+                                <div class="flex items-center">
+                                    <i class="fas fa-sparkle text-xl text-dark-rose mr-4"></i>
+                                    <h3 class="text-xl font-bold text-dark-rose">3 Expert Tips to Boost Nail Shine & Longevity</h3>
+                                </div>
+                                <p class="mt-3 pl-10 text-gray-600">Professional secrets to make your manicure last longer with incredible shine!</p>
+                            </div>
+                            <p class="text-dark-rose font-medium"><i class="fas fa-clock mr-2"></i> This exclusive bonus is only available for a limited time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="inline-block bg-soft-pink p-4 rounded-full mb-6">
+                    <i class="fas fa-bolt text-3xl text-dark-rose"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-dark-rose mb-4">Instant Digital Access</h2>
+                <p class="text-xl text-gray-700 max-w-2xl mx-auto">
+                    100% Digital Access — No shipping, no delays. Delivered instantly after purchase.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="py-16 bg-gradient-to-br from-soft-pink to-rose-gold">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Elevate Your Nails?</h2>
+                <p class="text-xl text-white mb-10 max-w-2xl mx-auto">
+                    Join thousands of women who've transformed their nails with this simple at-home system
+                </p>
+                <a href="#" class="btn-primary text-white font-bold py-5 px-12 rounded-full text-xl inline-block">
+                    <span>Yes, I Want This Guide – £8.90</span>
+                </a>
+                <div class="mt-8 flex justify-center">
+                    <div class="flex items-center text-white">
+                        <div class="flex -space-x-2">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer">
+                        </div>
+                        <div class="ml-4 text-left">
+                            <p class="text-sm font-medium">Thousands of Pinterest lovers are loving this guide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-dark-rose bg-opacity-90 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2023 Rose Water Home Guide. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple gallery interaction for mobile
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function() {
+                if (window.innerWidth < 768) {
+                    this.classList.toggle('w-full');
+                    this.classList.toggle('absolute');
+                    this.classList.toggle('top-0');
+                    this.classList.toggle('left-0');
+                    this.classList.toggle('z-50');
+                }
+            });
+        });
+
+        // Scroll to CTA when clicking header button
+        document.querySelector('header a[href="#cta"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#cta').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=gjs25k/pronails" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
